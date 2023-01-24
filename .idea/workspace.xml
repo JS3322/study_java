@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0931a587-351b-48fc-8cad-e7325412b7a2" name="변경" comment="update2">
+    <list default="true" id="0931a587-351b-48fc-8cad-e7325412b7a2" name="변경" comment="java file merge">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_channeldelay/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_channeldelay/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_channeldelay/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_eatjelly/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_eatjelly/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_eatjelly/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_hiwaychangedriver/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_hiwaychangedriver/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_hiwaychangedriver/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_hiwaychangedriver/organize_hiwaychangedriver.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_hiwaychangedriver/src/main/java/driver/Beginner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_preferencechannel/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_preferencechannel/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organize_preferencechannel/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyJava.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +68,10 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "D:/cleancode/study_java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -64,48 +83,42 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyMain">
+  <component name="RunManager" selected="애플리케이션.java05_0007_accountManagement">
     <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyMain" />
-      <module name="studyJava" />
+      <module name="study_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="java05_0007_accountManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java05_0007_accountManagement" />
-      <module name="studyJava" />
+      <module name="study_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="java05_0007_racingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java05_0007_racingGame" />
-      <module name="studyJava" />
+      <module name="study_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="reflection_example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection_example" />
-      <module name="studyJava" />
+      <module name="study_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="startJava0001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="startJava0001" />
-      <module name="studyJava" />
+      <module name="study_java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MyMain" />
-        <item itemvalue="Application.reflection_example" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
