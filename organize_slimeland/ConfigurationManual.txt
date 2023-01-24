@@ -1,0 +1,3 @@
+JDK : java17.0.3
+BuildSystem : Gradle
+GradleDSL : Groovy
