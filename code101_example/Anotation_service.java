@@ -1,6 +1,6 @@
-package example;
+package code101_example;
 
-public class service {
+public class Anotation_service {
 	
     @MetaData
 	public void method1() {
@@ -12,7 +12,7 @@ public class service {
 		System.out.println("실행 내용2");
 	}	
 	
-	@MetaData(value="#", number=20)
+	@code101_example.MetaData(value="#", number=20)
 	public void method3() {
 		System.out.println("실행 내용3");
 	}	

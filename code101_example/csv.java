@@ -1,4 +1,4 @@
-package output;
+package code101_example;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0931a587-351b-48fc-8cad-e7325412b7a2" name="변경" comment="anotation example" />
+    <list default="true" id="0931a587-351b-48fc-8cad-e7325412b7a2" name="변경" comment="update2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +31,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hnp6GCR6afDeWUpxWlqO7HxTWa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="flattenPackages" value="true" />
@@ -43,7 +52,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/js/Cleancode/study_java/code101_example",
+    "last_opened_file_path": "D:/cleancode/study_java",
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -51,20 +60,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/code101_example" />
+      <recent name="D:\cleancode\study_java" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.java05_0005_studentList">
-    <configuration name="java05_0005_studentList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java05_0005_studentList" />
-      <module name="studyJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java05_0006_studentRandomPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java05_0006_studentRandomPosition" />
+  <component name="RunManager" selected="Application.MyMain">
+    <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyMain" />
       <module name="studyJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,6 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reflection_example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection_example" />
+      <module name="studyJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="startJava0001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="startJava0001" />
       <module name="studyJava" />
@@ -93,11 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.java05_0005_studentList" />
-        <item itemvalue="애플리케이션.java05_0007_racingGame" />
-        <item itemvalue="애플리케이션.java05_0007_accountManagement" />
-        <item itemvalue="애플리케이션.java05_0006_studentRandomPosition" />
-        <item itemvalue="애플리케이션.startJava0001" />
+        <item itemvalue="Application.MyMain" />
+        <item itemvalue="Application.reflection_example" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +119,7 @@
       <workItem from="1668930566304" duration="3085000" />
       <workItem from="1668949778376" duration="776000" />
       <workItem from="1672493603858" duration="236000" />
-      <workItem from="1672494253437" duration="484000" />
+      <workItem from="1672494253437" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1668933601159</created>
@@ -143,21 +149,7 @@
       <option name="project" value="LOCAL" />
       <updated>1672493762451</updated>
     </task>
-    <task id="LOCAL-00005" summary="csv code">
-      <created>1672494310185</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1672494310185</updated>
-    </task>
-    <task id="LOCAL-00006" summary="anotation example">
-      <created>1672494515164</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1672494515164</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,9 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="update2" />
-    <MESSAGE value="csv code" />
-    <MESSAGE value="anotation example" />
-    <option name="LAST_COMMIT_MESSAGE" value="anotation example" />
+    <option name="LAST_COMMIT_MESSAGE" value="update2" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
