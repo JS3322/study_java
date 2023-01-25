@@ -5,70 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0931a587-351b-48fc-8cad-e7325412b7a2" name="변경" comment="java file merge">
-      <change afterPath="$PROJECT_DIR$/ColumnDataSwap/src/com/js/Input/TxtFileInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ColumnDataSwap/src/com/js/main/TableSwapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ColumnDataSwap/src/com/js/ui/MyTransferHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ColumnDataSwap/src/com/js/ui/TableSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/embeddedlibrary/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/xrToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/abstractfactory/CompFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/abstractfactory/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/abstractfactory/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/abstractfactory/FactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/robot/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/robot/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/robot/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/robot/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/robot/RobotKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/search/FindAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/search/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/search/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/search/SearchButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/adapter/search/SearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/command/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/command/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/command/RobotKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/composite/CompositePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/composite/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/DecoratorPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/FighterDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/LaserDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/MissileDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/PlasmaDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/decorator/XWingFighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/facade/FacadePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/facade/GeoLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/facade/InternetConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/facade/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/facade/MyLocFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/factorymethod/CompFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/factorymethod/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/factorymethod/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/factorymethod/FactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/mediator/MediatorPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/mediator/ModeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/mediator/ModeMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/mediator/ModeSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/proxy/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/proxy/Thumbnail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/FirstPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/SecondPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/state/ModeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/state/ModeSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/state/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/strategy/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/strategy/SearchButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/strategy/SearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/templatemethod/KakaoMapView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/templatemethod/MapView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/templatemethod/NaverMapView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/templatemethod/TemplateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s110_function_programming/Function_programming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s110_memory_stringbuffer/Memory_string.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotation_110_example/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/s150_anotation_example/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotation_110_example/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/s150_anotation_example/MyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anotation_110_example/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/s150_anotation_example/MyObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflection110_example/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/s150_reflection_example/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflection110_example/reflection_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/s150_reflection_example/reflection_example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,26 +49,26 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/js/Cleancode/study_java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/js/Cleancode/study_java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -182,6 +126,7 @@
       <workItem from="1672493603858" duration="236000" />
       <workItem from="1672494253437" duration="46000" />
       <workItem from="1674550948061" duration="95000" />
+      <workItem from="1674639784352" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1668933601159</created>
