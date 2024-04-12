@@ -1,5 +1,7 @@
 package kr.cleancode.s520_generic;
 
+//import lombok.Data;
+
 import lombok.Data;
 
 @Data

@@ -4,6 +4,7 @@ import kr.cleancode.s510_function.service.ExampleService;
 import kr.cleancode.s520_generic.APIJobStart1VO;
 import kr.cleancode.s520_generic.APIJobStart2VO;
 import kr.cleancode.s520_generic._TestVOProcessor;
+import kr.cleancode.s610_aop.service.ExampleAOPService;
 
 public class Main {
 
@@ -17,5 +18,8 @@ public class Main {
 
     _TestVOProcessor.printFieldsAndValues(apiJobStart1VO);
     _TestVOProcessor.printFieldsAndValues(apiJobStart2VO);
+
+    ExampleAOPService exampleAOPService = new ExampleAOPService();
+    exampleAOPService.riskyMethod();
   }
 }
