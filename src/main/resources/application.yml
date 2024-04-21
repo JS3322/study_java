@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@db_service_name?TNS_ADMIN=~/cleancode/_env/Wallet_test110
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: your_username
+    password: your_password
+  mybatis:
+    mapper-locations: classpath:mappers/*.xml
+    type-aliases-package: kr.cleancode.s550_connect_oracle.model
