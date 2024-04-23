@@ -1,0 +1,10 @@
+<?xml version="1.0">
+
+<mapper namespace="kr.cleancode.s550test.mapper.mappertest">
+	<select id="selectWorkList" resultType="kr.cleancode.s550test.model.WorkListResponseVO">
+		SELECT SERVICE_PROVIDER_NAME AS serviceProviderName
+		FROM TB_WORK_BATCH
+		WHERE STATE = 'READY'
+		ORDER BY CREATE_DATE ASC
+	<select>
+</mapper>
