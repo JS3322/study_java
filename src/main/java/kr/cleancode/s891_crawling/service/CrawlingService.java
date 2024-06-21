@@ -52,4 +52,32 @@ public class CrawlingService {
 
 	}
 
+	public void saveImageToPdf() throws IOException {
+		
+		try {
+			//이미지를 담을 pdf 생성
+			PDDocument document = new PDDocument();
+			
+			//이미지를 pdf 페이지에 추가
+			PDPage page = new PDPage();
+			document.addPage(page);
+
+			BufferedImage bimg = ImageIO.read(new File(imagePath));
+			PDImageXObject pdImage = PDImageXObject.createFromFile(imagePath, document);
+			PDPageContentStream contentStream = new PDPageContentStream(document, page);
+
+			contentStream.drawImage(pdImg, 0, 0, page.getMediaBox().getWidth(), page.getMediaBox().getHeight());
+			contentStream.close();
+
+			//추가할 pdf page 반복 생성
+
+			//pdf 생성 완료
+			document.save(pdfPath);
+			document.close();
+		} finally {
+
+		}
+
+	}
+
 }
