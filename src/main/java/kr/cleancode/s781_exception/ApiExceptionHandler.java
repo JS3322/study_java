@@ -35,6 +35,16 @@ public class ApiExceptionHandler {
 			.request_id(request.getHeader("request-id"))
 			.build();
 		response.setContentType("application/json");
+		if(e.getMessage().equals("Access Denied")) {
+			response.setStatus(HttpStatus.SC_FORBIDDEN);
+		}else {
+			response.setStatus(HttpStatus.SC_INTERNAL_SERVER_ERROR);
+		}
+		response.getOutputStream().println(objectMapper.writeValueAsString(CommonResponse.builder()
+			.success(false)
+			.error(error)
+			.build()
+		));
 	}
 
 }
