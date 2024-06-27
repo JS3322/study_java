@@ -73,4 +73,20 @@ public final class ExcelDownloadUtils {
 		}
 	}
 
+//
+	private void createHeaders(SXSSFWorkbook workbook, ROw row, Cell cell, List<String> headerNames) {
+		//font style
+		Font font = workbook.createFont();
+		font.setColor((short) 255);
+
+		//header cell style
+		CellStyle headerCellStyle = workbook.createCellStyle();
+		headerCellStyle.setAlignment(HorizontalAligment.CENTER);								// 가로 가운데 정렬
+		headerCellStyle.setVerticalAlignment(VerticalAligment.CENTER);		// 세로 가운데 정렬
+
+		//테두리 설정
+		headerCellStyle.setBorderLeft(BorderStyle.MEDIUM);
+
+	}
+
 }
