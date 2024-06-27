@@ -21,5 +21,25 @@ public class Main {
 
     ExampleAOPService exampleAOPService = new ExampleAOPService();
     exampleAOPService.riskyMethod();
+
+		// 환경변수 log
+		ApllicationContect contect = SpringApplication.run(CleancodeAppication.class, args);
+		Environment env = context.getEnvironment();
+		boolean isSSL = Boolean.valueOf(env.getProperty(Costants.ENV_SERVER_SSL_ENASBLED));
+		log.info(env.getProperty(Constants.ENV_APPLICATION_NAME));
+		log.info(env.getProperty(Constants.ENV_HTTP_PORT));
+		log.info(Arrays.toString(env.getActiveProfiles()));
   }
+
+	@Override
+	public void onStartup(ServletContext servletContext) throw ServletException {
+		log.info(servletContext.getServerInfo());
+
+		super.onStartup(servletContext);
+	}
+
+	@Override
+	protected WebApplicationContext run(SpringApplication application) {
+		return super.run(application);
+	}
 }
