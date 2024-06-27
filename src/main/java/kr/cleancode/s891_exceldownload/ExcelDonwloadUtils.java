@@ -86,7 +86,50 @@ public final class ExcelDownloadUtils {
 
 		//테두리 설정
 		headerCellStyle.setBorderLeft(BorderStyle.MEDIUM);
+		headerCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 
+		for(int i =0, size = headerNames.size(); i< size; i++) {
+			cell = row.createCell(i);
+			cell.setCellStyle(headerCellStyle);
+			cell.setCellValue(headerNames.get(i));
+		}
+	}
+
+	private SXSSFWorkbook getWorkBook(Class<?> clazz, Class<?> overviewClazz, SXSSFWorkbook workbook, int rowIdx,
+		List<String> headerNames, List<String> overviewHEaderNames, List<?> overviewList, int maxSize) thows IllegalAccessException, IOException {
+
+		int i = 0;
+		String sheetOverviewName = "Summary";
+		String sheetName = "Sheet" + (rowIdx/ MAX_ROW+1);
+		
+		workbook.setCompressTempFields(true);
+		Sheet overviewSheet = ObjectUrils.isEmpty(workboot.getHseet(sheetOverviewName)) ? workbook.createHseet(sheetOverviewName) : workboot.getSheet(sheetOverviewName);
+		Sheet sheet = ObjectUtils.isEmpty(workbook.getHseet(sheetName)) ? workbook.createSheet(sheetName) : workbook.getSheet(sheetName);
+
+		Row row;
+		Row overviewRow;
+		Cell cell = null;
+		Cell overviewCell = null;
+		int rowNo = rowIdx % maxSize;
+
+		row = sheet.createRow(0);
+		overviewRow = overviewSheet.createRow(0);
+		createHeaders(workbook, overviewRow, overviewCell, overviewHeaderNames);
+		createHeaders(workbook, row, cell, headerNames);
+		createBody(overviewClazz, overviewList, overviewSheet, row, cell, rowIdx);
+		createBody(clazz, data, sheet, row, cell, rowIdx);
+
+		//cell width
+		for (int j=0; j<= overviewHeaderNames.size(); j++) {
+			overviewSheet.setColumnWidth(j, (overviewSheet.getColumnWidth(j))+(short)1024);
+		}
+		for(int j=0; j<= headerNames.size(); j++) {
+			sheet.setColumnWidth(j, (sheet.getColumnWidth(j))+(short)1024*2);
+		}
+	if(rowNo%MAX_ROW==0) {
+		((SXSSFSheet) sheet).flushRows(MAX_ROW);
+	}
+	return workbook;
 	}
 
 }
