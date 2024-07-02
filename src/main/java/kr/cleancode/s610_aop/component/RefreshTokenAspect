@@ -1,0 +1,19 @@
+@Aspect
+@Component
+public class RefreshTokenAspect {
+	
+	@Before("@annotation(com.cleancode.admin.service.impl.RefreshTokenExample)")
+	public void assignRefreshToken(JoinPoint joinPoint) throws Exception {
+	
+		//reflection으ㄹ 사용해 refreshToken 변수에 접근
+		Object target = joinPoint.getTarget();
+		var field = target.getClass().getDeclaredField("refreshToken");
+		field.setAccessible(true);
+
+		//refreshToke 생성 및 할당 > 공통 API 호출
+		String refreshToken = "agawgea";
+		field.set(target, refreshToken);
+	}
+
+
+}
